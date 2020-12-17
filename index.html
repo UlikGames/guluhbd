@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  	<meta charset="UTF-8">
+  	<title>Happy Birthday</title>
+  	<link rel="stylesheet" href="./style.css">
+  	<link href='https://fonts.googleapis.com/css?family=Chilanka' rel='stylesheet'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+  	<script type="text/javascript">
+    	$(document).ready(function(){
+      		$(".envelope").click(function(){
+        		$(".letter").delay(200).fadeIn();
+        		$("#sonra").delay(4000).fadeIn();
+      		});
+    	});
+  	</script>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="envelope new">
+  <div class="front">
+    <div class="mail">
+      <p style="margin-bottom: 30px;">Happy Birthday!</p>
+      <p>Click me :)!</p>
+    </div>
+  </div>
+  <div class="back">
+    <div class="letter" style="display: none;">
+		<p style="margin: 0;"></p><p style="font-size: 12px; margin: 5px 0px 5px 0px;">
+			Bəzən həyatımızdan şikayətlənirdik ki,bundan daha pisini yaşaya bilmərik hər halda.. İndi düşünürəm ki,başımızdan keçən heç hir hadisə aramızdakı məsafələr qədər ağır gəlməmişdi mənə.. Düşünmə ki,bu məsafələr sənə olan sevgimi azaldır, hansı ki, mümkün deyil.. Axı sən mənim qəlbimdə olan ən gözək çiçək bağçası ikən necə azala bilər ki, sənə olan sevgim?!.. O sevgi ki, bizi bir-birimizə bağlayır hər zaman.. O sevgi ki, birimizin, hətta bəzən ikimizin də çox pis olduğu anda əlimizdən tutur bizim.. O sevgi ki, 7 ilimizin ən gözəl mükafatıdır.. Belə gözəl bir dostluğu və hissi mənə yaşatdığın üçün sənə minnətdaram, əzizim!.. Yaxşı ki, 18 il bundan əvvəl doğulmusan sən və qarşıma çıxmısan 7 il öncə.. 16, 17ci yaş gününlərində birlikdə idik və bu özəl günü çox gözəl dəyərləndirmişdik.. İndi bu mümkün deyil ki, birlikdə olaq, pasta kəsək birlikdə şamları söndürək, ya da birlikdə dilək tutaq.. Amma bu sənin yanında olduğum gerçəyini dəyişdirmir, elə indi gözlərini bağla və iç səsini dinlə.. O sənə mənim həqiqətən harda olduğumu göstərəcək.. Növbəti yaş günlərimizdə əl-ələ dilək tutub, eyni anda şamları söndürməyimiz diləyimlə.. Səni çox sevirəm, Gülüm <i class="fas fa-heart fa-spin" style="color: red; font-size: 13px;"></i> Doğum günün mübarək!.. Yaxşı ki, doğulub kiçik dünyamın dəyərli işıqlarından biri olmusan..
+		</p>
+      <hr style="margin-bottom: 0;">
+      <div id="sonra" style="margin: 0px; font-size: 1.5em;">
+        <div style="display: inline-block; margin-top: 3px; width: 55%;">
+          <p style="text-decoration: none; color: #ff616e; letter-spacing: 8px; font-size: 20px; margin: 0; display: inline-block;">From Röyya</p>
+          <img src="./heart.gif" class="myheart heartdiv">
+        </div>        
+        <p style="margin-top: 5.02px; display: inline-block; float: right; color: #ff616e; letter-spacing: 8px;">To Gülü</p>
+      </div>
+    </div>
+    <div class="flip left-flip"></div>
+    <div class="flip right-flip"></div>
+    <div class="flip bottom-flip"></div>
+    <div class="flip top-flip"></div>
+  </div>
+</div>
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.spritely/0.6.5/jquery.spritely.min.js'></script>
+<script  src="./script.js"></script>
+
+</body>
+</html>
